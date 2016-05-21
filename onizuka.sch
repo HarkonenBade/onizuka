@@ -97,44 +97,17 @@ RXLED
 Text Label 4400 2650 0    60   ~ 0
 PWREN
 $Comp
-L CONN_01X10 P2
-U 1 1 573F0BFB
-P 5400 1800
-F 0 "P2" H 5400 2350 50  0000 C CNN
-F 1 "CONN_01X10" V 5500 1800 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x10" H 5400 1800 50  0001 C CNN
-F 3 "" H 5400 1800 50  0000 C CNN
-	1    5400 1800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5200 1450 4400 1450
-Wire Wire Line
-	4400 1550 5200 1550
-Wire Wire Line
-	5200 1650 4400 1650
-Wire Wire Line
-	4400 1750 5200 1750
-Wire Wire Line
-	5200 1850 4400 1850
-Wire Wire Line
-	4400 1950 5200 1950
-Wire Wire Line
-	5200 2050 4400 2050
-Wire Wire Line
-	4400 2150 5200 2150
-$Comp
 L GND #PWR02
 U 1 1 573F0E0D
-P 5200 2250
-F 0 "#PWR02" H 5200 2000 50  0001 C CNN
-F 1 "GND" H 5200 2100 50  0000 C CNN
-F 2 "" H 5200 2250 50  0000 C CNN
-F 3 "" H 5200 2250 50  0000 C CNN
-	1    5200 2250
+P 4950 1450
+F 0 "#PWR02" H 4950 1200 50  0001 C CNN
+F 1 "GND" H 4950 1300 50  0000 C CNN
+F 2 "" H 4950 1450 50  0000 C CNN
+F 3 "" H 4950 1450 50  0000 C CNN
+	1    4950 1450
 	1    0    0    -1  
 $EndComp
-Text Label 5200 1350 2    60   ~ 0
+Text Label 5400 1650 2    60   ~ 0
 PWROUT
 Wire Wire Line
 	1800 1750 2800 1750
@@ -706,4 +679,60 @@ F 3 "" V 4050 6100 50  0000 C CNN
 	1    4050 6100
 	0    -1   -1   0   
 $EndComp
+$Comp
+L CONN_01X06 P2
+U 1 1 573F91A3
+P 5600 1700
+F 0 "P2" H 5600 2050 50  0000 C CNN
+F 1 "FTDI" V 5700 1700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x06" H 5600 1700 50  0001 C CNN
+F 3 "" H 5600 1700 50  0000 C CNN
+	1    5600 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P3
+U 1 1 573F91DD
+P 5600 2300
+F 0 "P3" H 5600 2550 50  0000 C CNN
+F 1 "EXTRA" V 5700 2300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x04" H 5600 2300 50  0001 C CNN
+F 3 "" H 5600 2300 50  0000 C CNN
+	1    5600 2300
+	1    0    0    -1  
+$EndComp
+Text Label 5400 1550 2    60   ~ 0
+CTS
+Text Label 5400 1750 2    60   ~ 0
+TXD
+Text Label 5400 1850 2    60   ~ 0
+RXD
+Text Label 5400 1950 2    60   ~ 0
+RTS
+Wire Wire Line
+	4950 1450 5400 1450
+Text Label 4400 1450 0    60   ~ 0
+TXD
+Text Label 4400 1550 0    60   ~ 0
+RXD
+Text Label 4400 1650 0    60   ~ 0
+RTS
+Text Label 4400 1750 0    60   ~ 0
+CTS
+Text Label 4400 1850 0    60   ~ 0
+DTR
+Text Label 4400 1950 0    60   ~ 0
+DSR
+Text Label 4400 2050 0    60   ~ 0
+DCD
+Text Label 4400 2150 0    60   ~ 0
+RI
+Text Label 5400 2150 2    60   ~ 0
+DTR
+Text Label 5400 2250 2    60   ~ 0
+DSR
+Text Label 5400 2350 2    60   ~ 0
+DCD
+Text Label 5400 2450 2    60   ~ 0
+RI
 $EndSCHEMATC

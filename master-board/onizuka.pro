@@ -1,4 +1,4 @@
-update=Fri 20 May 2016 16:20:14 BST
+update=23/05/2016 23:26:19
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,4 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=ftdi
-LibName31=/auto/homes/tb403/sparkie/onizuka/ad
+LibName31=ad

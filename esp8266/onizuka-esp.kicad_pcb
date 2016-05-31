@@ -390,7 +390,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
     )
-    (model ./esp-01.wrl
+    (model ${KIPRJMOD}/esp-01.wrl
       (at (xyz 0.15 -0.05 0.34))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -491,10 +491,10 @@
   (gr_line (start 69 37.5) (end 20 37.5) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 69 18.5) (end 69 37.5) (angle 90) (layer Edge.Cuts) (width 0.15))
 
-  (via (at 35.5 30) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 1))
-  (via (at 44 21.5) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 1))
-  (via (at 36.5 33.5) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 1))
-  (via (at 52 31) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 1))
+  (via (at 35.5 30) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 0))
+  (via (at 44 21.5) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 0))
+  (via (at 36.5 33.5) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 0))
+  (via (at 52 31) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 0))
   (segment (start 57.9635 32.1945) (end 57.9635 33.7185) (width 0.25) (layer F.Cu) (net 1))
   (segment (start 57.9635 33.7185) (end 57.9635 32.9685) (width 0.25) (layer F.Cu) (net 1) (tstamp 5744F38C))
   (segment (start 57.9635 32.9685) (end 57.9755 32.9565) (width 0.25) (layer F.Cu) (net 1) (tstamp 5744F38D))

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:onizuka-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -47,17 +48,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L FT232RQ IC1
-U 1 1 573F0905
-P 3600 2250
-F 0 "IC1" H 2900 3170 50  0000 L BNN
-F 1 "FT232RQ" H 2900 1150 50  0000 L BNN
-F 2 "Housings_DFN_QFN:QFN-32-1EP_5x5mm_Pitch0.5mm" H 3600 2400 50  0001 C CNN
-F 3 "" H 3600 2250 60  0000 C CNN
-	1    3600 2250
-	1    0    0    -1  
-$EndComp
-$Comp
 L USB_OTG P1
 U 1 1 573F0976
 P 900 1050
@@ -86,7 +76,7 @@ F 3 "" H 3600 3400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3400 3350 3800 3350
+	3400 3350 3900 3350
 Connection ~ 3600 3350
 Connection ~ 3500 3350
 Wire Wire Line
@@ -845,6 +835,18 @@ F 1 "GND" H 2450 4450 50  0000 C CNN
 F 2 "" H 2450 4600 50  0000 C CNN
 F 3 "" H 2450 4600 50  0000 C CNN
 	1    2450 4600
+	1    0    0    -1  
+$EndComp
+Connection ~ 3800 3350
+$Comp
+L FT232RQ IC1
+U 1 1 574DED0D
+P 3600 2250
+F 0 "IC1" H 2900 3170 50  0000 L BNN
+F 1 "FT232RQ" H 2900 1150 50  0000 L BNN
+F 2 "ftdi4-QFN-32" H 3600 2400 50  0001 C CNN
+F 3 "" H 3600 2250 60  0000 C CNN
+	1    3600 2250
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

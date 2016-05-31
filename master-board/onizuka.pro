@@ -1,4 +1,4 @@
-update=23/05/2016 23:26:19
+update=31/05/2016 16:00:05
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=ftdi
 LibName31=ad
+LibName32=micrel

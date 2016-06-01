@@ -586,17 +586,6 @@ $EndComp
 Wire Wire Line
 	2900 3900 2900 3800
 Connection ~ 3100 3900
-$Comp
-L +5V #PWR018
-U 1 1 5744B5FA
-P 2900 3600
-F 0 "#PWR018" H 2900 3450 50  0001 C CNN
-F 1 "+5V" H 2900 3740 50  0000 C CNN
-F 2 "" H 2900 3600 50  0000 C CNN
-F 3 "" H 2900 3600 50  0000 C CNN
-	1    2900 3600
-	-1   0    0    -1  
-$EndComp
 Text Label 5950 3750 0    60   ~ 0
 LEDCTRL
 $Comp
@@ -931,4 +920,6 @@ F 3 "" H 5600 2850 60  0000 C CNN
 	1    5550 2850
 	1    0    0    -1  
 $EndComp
+Text Label 2900 3600 2    60   ~ 0
+VCCIO
 $EndSCHEMATC

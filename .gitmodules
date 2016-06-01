@@ -1,0 +1,6 @@
+[submodule "master-board/hark-kicad"]
+	path = master-board/hark-kicad
+	url = git@github.com:HarkonenBade/hark-kicad.git
+[submodule "esp8266/hark-kicad"]
+	path = esp8266/hark-kicad
+	url = git@github.com:HarkonenBade/hark-kicad.git

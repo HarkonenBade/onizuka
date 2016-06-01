@@ -1,4 +1,4 @@
-update=01/06/2016 01:44:55
+update=Wed 01 Jun 2016 15:34:07 BST
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,4 @@ LibName29=valves
 LibName30=hark-kicad/ad
 LibName31=hark-kicad/micrel
 LibName32=hark-kicad/ftdi
+LibName33=hark-kicad/Switches

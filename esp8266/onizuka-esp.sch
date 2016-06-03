@@ -73,7 +73,7 @@ Text Label 2000 1200 0    60   ~ 0
 RXD
 Text Label 2000 1100 0    60   ~ 0
 RTS
-Text Label 700  1600 2    60   ~ 0
+Text Label 700  1200 2    60   ~ 0
 DTR
 Text Label 1800 2500 0    60   ~ 0
 RXD
@@ -404,7 +404,7 @@ Wire Notes Line
 	600  3550 600  2800
 $Comp
 L FTDI_CONN P1
-U 1 1 5750541E
+U 1 1 5750A0BC
 P 1350 1350
 F 0 "P1" H 1350 863 60  0001 C CNN
 F 1 "FTDI_CONN" H 1350 1350 60  0000 C CNN

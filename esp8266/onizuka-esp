@@ -1,0 +1,36 @@
+Bill Of Materials
+=================
+
+Source file: onizuka-esp.xml
+Date: 2016-06-04T15:11:14.188466
+
+Parts Missing Footprints
+------------------------
+
+
+Parts Missing Order Codes
+-------------------------
+U2     ESP-12E         ESP:ESP-12E-Program
+U3     ESP-02          ESP:ESP-02-Program
+
+Inconsistent Order Codes
+------------------------
+
+
+Vendor Specific BOMs
+--------------------
+  Farnell
+  ~~~~~~~
+1593489,1,1x ESP-01 Socket_Strip_Straigh
+2524817,3,3x 100n C_0603
+2494232,3,3x 22u C_0603
+1593452,1,1x FTDI_CONN Pin_Header_Angled
+
+
+Assembly BOM
+------------
+1593489              1   ESP-01          Socket_Strip_Straight_2x04 U1
+2524817              3   100n            C_0603          C1 C4 C6
+2494232              3   22u             C_0603          C2 C3 C7
+1593452              1   FTDI_CONN       Pin_Header_Angled_2x06 P1
+

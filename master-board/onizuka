@@ -1,0 +1,70 @@
+Bill Of Materials
+=================
+
+Source file: onizuka.xml
+Date: 2016-06-04T15:06:07.649933
+
+Parts Missing Footprints
+------------------------
+
+
+Parts Missing Order Codes
+-------------------------
+
+
+Inconsistent Order Codes
+------------------------
+  Farnell
+  ~~~~~~~
+    2290329: 
+      D1     TX              LEDs:LED_0603
+      D5     5v              LEDs:LED_0603
+    8554609: 
+      D3     PWR             LEDs:LED_0603
+      D2     RX              LEDs:LED_0603
+
+Vendor Specific BOMs
+--------------------
+  Farnell
+  ~~~~~~~
+2134452,1,1x SPDT 450301014042
+1358113,1,1x 430K R_0402
+2524677,4,4x 100n C_0402
+1358043,6,6x 1k R_0402
+2290329,2,2x 5v TX LED_0603
+2524674,1,1x 10n C_0402
+2426952,1,1x 4u7 C_0402
+2290330,1,1x 3v3 LED_0603
+8554609,2,2x RX PWR LED_0603
+1146033,1,1x FT232RQ FTDI-FT232RQ-QFN-32
+1894738,1,1x Q_PMOS_GSD SOT-23
+1668355,1,1x FTDI Socket_Strip_Angled_2x
+2376801,1,1x ADCMP371 SC-70-5
+2506104,1,1x USB_OTG USB_Micro-B
+1358088,1,1x 51K R_0402
+2510347,1,1x MIC5353-3.3YMT Thin_MLF_6_1
+2496813,3,3x 1u C_0402
+1358069,1,1x 10K R_0402
+
+
+Assembly BOM
+------------
+2134452              1   SPDT            450301014042    SW1
+1358113              1   430K            R_0402          R6
+2524677              4   100n            C_0402          C1 C4 C5 C6
+1358043              6   1k              R_0402          R1 R2 R3 R4 R7 R8
+2290329              2   5v,TX           LED_0603        D1 D5
+2524674              1   10n             C_0402          C2
+2426952              1   4u7             C_0402          C3
+2290330              1   3v3             LED_0603        D4
+8554609              2   RX,PWR          LED_0603        D2 D3
+1146033              1   FT232RQ         FTDI-FT232RQ-QFN-32 IC1
+1894738              1   Q_PMOS_GSD      SOT-23          Q1
+1668355              1   FTDI            Socket_Strip_Angled_2x06 P2
+2376801              1   ADCMP371        SC-70-5         IC2
+2506104              1   USB_OTG         USB_Micro-B     P1
+1358088              1   51K             R_0402          R5
+2510347              1   MIC5353-3.3YMT  Thin_MLF_6_1.6mm_0.5mm_pitch U1
+2496813              3   1u              C_0402          C7 C8 C9
+1358069              1   10K             R_0402          R9
+
